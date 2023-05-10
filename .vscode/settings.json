@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "qweather"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "qweather_icons.iml": true,
+        "pubspec.lock": true,
+        ".metadata": true
+    },
+    "explorerExclude.backup": {}
+}
