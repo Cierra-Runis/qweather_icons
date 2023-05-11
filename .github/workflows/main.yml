@@ -1,13 +1,19 @@
 name: Build & Deploy qweather_icons
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
 
 jobs:
 
   build-and-deploy:
     name: 'Build & Deploy web app'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
       - uses: actions/checkout@v3
