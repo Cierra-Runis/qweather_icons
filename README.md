@@ -72,24 +72,4 @@ Need to write example and insert image at Readme page.
 
 This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-### License
-
 [For QWeather_Icons.ttf](https://github.com/qwd/Icons/blob/main/LICENSE)
