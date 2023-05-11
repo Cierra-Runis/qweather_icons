@@ -3,7 +3,7 @@ name: Build & Deploy qweather_icons
 on:
   push:
     branches:
-      - master  # Set a branch name to trigger deployment
+      - gh-page  # Set a branch name to trigger deployment
 
 jobs:
 
@@ -21,8 +21,7 @@ jobs:
       - name: 'Install Flutter and Dart SDK'
         uses: subosito/flutter-action@v2
         with:
-          channel: stable
-          flutter-version: 3.3.9
+          channel: beta
           cache: true
 
       - name: 'Flutter enable Web'
