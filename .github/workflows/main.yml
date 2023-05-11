@@ -1,27 +1,18 @@
-name: Build and Deploy
+name: Gh-Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+      - uses: actions/checkout@v2 # Only works with v2
+      - uses: subosito/flutter-action@v1
+      - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          channel: 'stable'
-      - name: Install Dependencies
-        working-directory: ./example
-        run: flutter pub get
-      - name: Build Example
-        working-directory: ./example
-        run: flutter build web --release
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.QWEATHERICONS_TOKEN }}
-          publish_dir: ./example/build/web
+          workingDir: example
+          webRenderer: canvaskit
+          baseHref: /qweather_icons/example
