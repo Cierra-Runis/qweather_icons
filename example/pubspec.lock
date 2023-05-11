@@ -118,9 +118,10 @@ packages:
   qweather_icons:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: qweather_icons
+      sha256: "7fb2b63173eff89a625a8991e9ed3234e7fd5d221f17fad934074efaf3bda1b8"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.0.1"
   sky_engine:
     dependency: transitive
