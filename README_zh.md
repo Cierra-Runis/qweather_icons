@@ -35,11 +35,11 @@
 
 # 📦 使用方式
 
-1. 修改 `pubspec.yaml`
+1. 修改 `pubspec.yaml` 至最新版本
 
     ```yaml
     dependencies:
-        qweather_icons: ^0.0.1
+        qweather_icons: ^0.0.3
     ```
 
 2. 在任何地方使用它
