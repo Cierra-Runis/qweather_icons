@@ -4,11 +4,11 @@ import 'index.dart';
 
 part 'github_latest_release.g.dart';
 
-@JsonSerializable(explicitToJson: true)
+@JsonSerializable()
 class GithubLatestRelease {
   GithubLatestRelease();
 
-  final String url = 'https://api.github.com/repos/qwd/Icons/releases/latest';
+  static const url = 'https://api.github.com/repos/qwd/Icons/releases/latest';
 
   String? tag_name;
   String? name;
@@ -24,7 +24,7 @@ class GithubLatestRelease {
       _$GithubLatestReleaseFromJson(json);
   Map<String, dynamic> toJson() => _$GithubLatestReleaseToJson(this);
 
-  Future<GithubLatestRelease> fetch() async {
+  static Future<GithubLatestRelease> fetch() async {
     print('正在获取 GithubLatestRelease');
 
     GithubLatestRelease githubLatestRelease = GithubLatestRelease();
@@ -33,7 +33,9 @@ class GithubLatestRelease {
     return githubLatestRelease;
   }
 
-  Future<void> download(GeneratorPath generatorPath) async {
+  Future<Tuple<File, File>> downloadDecode(
+    GeneratorPath generatorPath,
+  ) async {
     print('正在下载 GithubLatestRelease');
 
     Directory tempDir = generatorPath.tempDir;
@@ -41,17 +43,39 @@ class GithubLatestRelease {
     await Dio().download(
       releaseUrl,
       '${tempDir.path}/$assets_name',
-      onReceiveProgress: (received, total) {
-        if (total != -1) {
-          print("${(received / total * 100).toStringAsFixed(0)} %");
-        }
-      },
     );
     print('$assets_name 已下载至 ${tempDir.path}');
+
+    print('开始解压');
+
+    List<File> files = [];
+    final inputStream = InputFileStream(
+      '${tempDir.path}/$assets_name',
+    );
+    final archive = ZipDecoder().decodeBuffer(inputStream);
+    for (ArchiveFile file in archive.files) {
+      if (file.isFile) {
+        final outputStream = OutputFileStream(
+          '${tempDir.path}/${file.name}',
+        );
+        file.writeContent(outputStream);
+        files.add(
+          File('${tempDir.path}/${file.name}'),
+        );
+        outputStream.close();
+      }
+    }
+
+    print('解压完成');
+
+    return Tuple(
+      json: files.firstWhere((e) => e.path.split('.').last == 'json'),
+      ttf: files.firstWhere((e) => e.path.split('.').last == 'ttf'),
+    );
   }
 }
 
-@JsonSerializable(explicitToJson: true)
+@JsonSerializable()
 class GithubLatestReleaseAsset {
   GithubLatestReleaseAsset();
 

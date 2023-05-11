@@ -1,0 +1,4 @@
+  tag_{key}(
+    tag: '{key}',
+    iconData: IconData({value}, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
