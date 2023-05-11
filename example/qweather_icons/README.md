@@ -1,3 +1,3 @@
 # example
 
-QWeatherIcon Gallery, to use it quickly, see [Example Web Page](https://) has built.
+QWeatherIcon Gallery, to use it quickly just run this example.

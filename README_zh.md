@@ -2,53 +2,53 @@
 
   <img width="256" alt="qweather_icons" src="https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/icon.svg">
   <p>『 qweather_icons - QWeather Icons! 』</p>
-  <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README_zh.md">中文 Readme</a>
+  <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README.md">English  Readme</a>
 </div>
 
 `Latest update: 2023-05-11 10:00:00`
 
-[📚 Introduction](#-Introduction)
+[📚 简介](#-简介)
 
-[📸 Screenshots](#-Screenshots)
+[📸 示例](#-示例)
 
-[📦 How to use](#-How-to-use)
+[📦 使用方式](#-使用方式)
 
-[⏳ Rate of progress](#-Rate-of-progress)
+[⏳ 进度](#-进度)
 
-[📌 Cautions](#-Cautions)
+[📌 注意事项](#-注意事项)
 
-[🧑‍💻 Contributor](#-Contributor)
+[🧑‍💻 贡献者](#-贡献者)
 
-[🔦 Declaration](#-Declaration)
+[🔦 声明](#-声明)
 
 ---
 
-# 📚 Introduction
+# 📚 简介
 
-An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you show its icon continently.
+[QWeather](https://github.com/qwd/Icons) 的图标包，可帮助你快速显示其图标。
 
-# 📸 Screenshots
+# 📸 示例
 
 ![screenshot_1](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_1.jpg)
 
 ![screenshot_2](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_2.jpg)
 
-# 📦 How to use
+# 📦 使用方式
 
-1. Add to `pubspec.yaml`
+1. 修改 `pubspec.yaml`
 
     ```yaml
     dependencies:
         qweather_icons: ^0.0.1
     ```
 
-2. Use it any where
+2. 在任何地方使用它
 
     ```dart
     Icon(QweatherIcons.tag_qweather),
     ```
 
-3. More method
+3. 以及更多的方法
 
     ```dart
     /// get icon with [tag]
@@ -84,24 +84,24 @@ An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you sh
     }
     ```
 
-# ⏳ Rate of progress
+# ⏳ 进度
 
-Done...?
+完成了（大概）
 
-# 📌 Cautions
+# 📌 注意事项
 
-- None
+- 没有
 
-# 🧑‍💻 Contributor
+# 🧑‍💻 贡献者
 
 <a href="https://github.com/Cierra-Runis/qweather_icons/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Cierra-Runis/qweather_icons" />
 </a>
 
-# 🔦 Declaration
+# 🔦 声明
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/qweather_icons)](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE)
 
-This project is licensed under the terms of the `BSD-3-Clause` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details
+该项目采用 `BSD-3-Clause` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) 以获得更多信息
 
-[For QWeather_Icons.ttf](https://github.com/qwd/Icons/blob/main/LICENSE)
+[对 QWeather_Icons.ttf 的声明](https://github.com/qwd/Icons/blob/main/LICENSE)
