@@ -1,3 +1,7 @@
+## 0.0.5
+
+Update License.
+
 ## 0.0.4
 
 Add more dartdoc comments and make example visible in pub.dev.

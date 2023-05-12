@@ -1,6 +1,6 @@
 name: qweather_icons
 description: An Icon package for QWeather, which helps you show its icon continently.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/Cierra-Runis/qweather_icons
 
 environment:
