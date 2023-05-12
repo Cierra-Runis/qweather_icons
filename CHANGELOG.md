@@ -1,3 +1,7 @@
+## 0.0.7
+
+Detect Dart 3 & Flutter 3.10 compatibility.
+
 ## 0.0.6
 
 Update License.
