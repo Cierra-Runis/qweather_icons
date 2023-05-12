@@ -16,10 +16,13 @@ class Rewriter {
     File template = File(
       '${generatorPath.sourceDir.path}/qweather_icons_template.dart',
     );
-    String gen = template.readAsStringSync().replaceAllMapped(
-          RegExp(r'\/\/ REPLACE START(.*?)\/\/ REPLACE END', dotAll: true),
-          (match) => '// REPLACE START\n$genCode// REPLACE END',
-        );
+    String readString = template.readAsStringSync();
+    print('读取 template.dart');
+    print(readString);
+    String gen = readString.replaceAllMapped(
+      RegExp(r'/// REPLACE START(.*?)/// REPLACE END', dotAll: true),
+      (match) => '/// GENERATED CODE START\n$genCode\n  /// GENERATED CODE END',
+    );
     File target = File('${generatorPath.targetDir.path}/qweather_icons.dart');
     target.writeAsStringSync(gen);
     File copy = File(

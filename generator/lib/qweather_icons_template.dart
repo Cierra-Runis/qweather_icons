@@ -8,12 +8,16 @@ enum QWeatherIcons {
   ///
   /// Here we add `tag` before enums
 
-  // REPLACE START
+  /// REPLACE START
+
   tag_101(
     tag: '101',
     iconData: IconData(0xf101, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
-  // REPLACE END
+
+  /// REPLACE END
+
+  /// [QWeatherIcons] with [tag_unknown]
   tag_unknown(
     tag: 'unknown',
     iconData: IconData(61766, fontFamily: _fontFam, fontPackage: _fontPak),

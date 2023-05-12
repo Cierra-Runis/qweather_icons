@@ -25,7 +25,7 @@ class GeneratorPath {
     print('删除原有的 temp 文件夹');
     if (await tempDir.exists()) tempDir.delete(recursive: true);
     print('创建新的 temp 文件夹');
-    await tempDir.create();
+    await tempDir.create(recursive: true);
     print('源文件夹');
     Directory sourceDir = Directory('${current.path}/lib/');
     print('目标文件夹');

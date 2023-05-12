@@ -2,7 +2,6 @@ export 'github_latest_release.dart';
 export 'generator.dart';
 export 'generator_path.dart';
 export 'rewriter.dart';
-export 'tuple.dart';
 export 'template_string.dart';
 
 export 'dart:convert';

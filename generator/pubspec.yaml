@@ -1,10 +1,9 @@
 name: generator
-description: A sample command-line application.
+description: Used to generate code automatically
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ">=2.19.6 <3.0.0"
+  sdk: ">=3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:

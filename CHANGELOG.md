@@ -1,6 +1,10 @@
+## 0.0.4
+
+Add more dartdoc comments and make example visible in pub.dev.
+
 ## 0.0.3
 
-Update Readme.md and example
+Update Readme.md and example.
 
 ## 0.0.2
 

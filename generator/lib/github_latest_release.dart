@@ -33,7 +33,7 @@ class GithubLatestRelease {
     return githubLatestRelease;
   }
 
-  Future<Tuple<File, File>> downloadDecode(
+  Future<(File, File)> downloadDecode(
     GeneratorPath generatorPath,
   ) async {
     print('正在下载 GithubLatestRelease');
@@ -68,9 +68,9 @@ class GithubLatestRelease {
 
     print('解压完成');
 
-    return Tuple(
-      json: files.firstWhere((e) => e.path.split('.').last == 'json'),
-      ttf: files.firstWhere((e) => e.path.split('.').last == 'ttf'),
+    return (
+      files.firstWhere((e) => e.path.split('.').last == 'json'),
+      files.firstWhere((e) => e.path.split('.').last == 'ttf'),
     );
   }
 }
