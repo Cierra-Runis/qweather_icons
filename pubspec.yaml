@@ -4,7 +4,7 @@ version: 0.0.4
 homepage: https://github.com/Cierra-Runis/qweather_icons
 
 environment:
-  sdk: ">=2.19.6"
+  sdk: ">=2.19.6 <=3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
