@@ -35,11 +35,11 @@ An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you sh
 
 # 📦 How to use
 
-1. Add to `pubspec.yaml`
+1. Add latest version to `pubspec.yaml`
 
     ```yaml
     dependencies:
-        qweather_icons: ^0.0.1
+        qweather_icons: ^0.0.3
     ```
 
 2. Use it any where
