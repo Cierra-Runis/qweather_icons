@@ -1,3 +1,7 @@
+## 0.0.8
+
+Merge to static function.
+
 ## 0.0.7
 
 Detect Dart 3 & Flutter 3.10 compatibility.
