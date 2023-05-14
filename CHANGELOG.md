@@ -1,3 +1,8 @@
+## 0.0.9
+
+Update License.
+Merge to factory function.
+
 ## 0.0.8
 
 Merge to static function.
