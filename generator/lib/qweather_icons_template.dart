@@ -44,7 +44,7 @@ enum QWeatherIcons {
   /// get icon with [tag]
   ///
   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-  static QWeatherIcons getIconWith(String? tag) {
+  factory QWeatherIcons.getIconWith(String? tag) {
     if (tag == null) return QWeatherIcons.tag_unknown;
     for (QWeatherIcons icons in QWeatherIcons.values) {
       if (icons.tag == tag) return icons;
@@ -55,7 +55,7 @@ enum QWeatherIcons {
   /// get filled icon with [qWeatherIcons]
   ///
   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-  static QWeatherIcons getFilledIconWith(QWeatherIcons qWeatherIcons) {
+  factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
     if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
     for (QWeatherIcons icons in QWeatherIcons.values) {
       if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
@@ -66,7 +66,7 @@ enum QWeatherIcons {
   /// get unfilled icon with [qWeatherIcons]
   ///
   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-  static QWeatherIcons getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
+  factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
     if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
     for (QWeatherIcons icons in QWeatherIcons.values) {
       if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;
