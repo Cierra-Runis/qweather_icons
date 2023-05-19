@@ -5,7 +5,7 @@
   <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README.md">English  Readme</a>
 </div>
 
-`Latest update: 2023-05-11 10:00:00`
+`Latest update: 2023-05-19 20:30:00`
 
 [📚 简介](#-简介)
 
@@ -39,7 +39,7 @@
 
     ```yaml
     dependencies:
-        qweather_icons: ^0.0.8
+        qweather_icons: ^0.0.10
     ```
 
 2. 在任何地方使用它
@@ -54,7 +54,7 @@
     /// get icon with [tag]
     ///
     /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    static QWeatherIcons getIconWith(String? tag) {
+    factory QWeatherIcons.getIconWith(String? tag) {
       if (tag == null) return QWeatherIcons.tag_unknown;
       for (QWeatherIcons icons in QWeatherIcons.values) {
         if (icons.tag == tag) return icons;
@@ -65,7 +65,7 @@
     /// get filled icon with [qWeatherIcons]
     ///
     /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    static QWeatherIcons getFilledIconWith(QWeatherIcons qWeatherIcons) {
+    factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
       if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
       for (QWeatherIcons icons in QWeatherIcons.values) {
         if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
@@ -76,7 +76,7 @@
     /// get unfilled icon with [qWeatherIcons]
     ///
     /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    static QWeatherIcons getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
+    factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
       if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
       for (QWeatherIcons icons in QWeatherIcons.values) {
         if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;

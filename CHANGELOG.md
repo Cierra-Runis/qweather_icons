@@ -1,3 +1,7 @@
+## 0.0.10
+
+Rebuild for [v1.3.2](https://github.com/qwd/Icons/releases/tag/v1.3.2)
+
 ## 0.0.9
 
 Update License.
