@@ -1,3 +1,7 @@
+## 1.0.0
+
+Rebuild for [v1.4.0](https://github.com/qwd/Icons/releases/tag/v1.4.0)
+
 ## 0.0.11
 
 Rebuild for [v1.3.3](https://github.com/qwd/Icons/releases/tag/v1.3.3)

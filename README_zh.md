@@ -5,7 +5,7 @@
   <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README.md">English  Readme</a>
 </div>
 
-`Latest update: 2023-05-19 20:30:00`
+`Latest update: 2023-08-14 22:36:27`
 
 [📚 简介](#-简介)
 
@@ -37,53 +37,53 @@
 
 1. 修改 `pubspec.yaml` 至最新版本
 
-    ```yaml
-    dependencies:
-        qweather_icons: ^0.0.10
-    ```
+   ```yaml
+   dependencies:
+     qweather_icons: ^1.0.0
+   ```
 
 2. 在任何地方使用它
 
-    ```dart
-    Icon(QweatherIcons.tag_qweather),
-    ```
+   ```dart
+   Icon(QweatherIcons.tag_qweather),
+   ```
 
 3. 以及更多的方法
 
-    ```dart
-    /// get icon with [tag]
-    ///
-    /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    factory QWeatherIcons.getIconWith(String? tag) {
-      if (tag == null) return QWeatherIcons.tag_unknown;
-      for (QWeatherIcons icons in QWeatherIcons.values) {
-        if (icons.tag == tag) return icons;
-      }
-      return QWeatherIcons.tag_unknown;
-    }
+   ```dart
+   /// get icon with [tag]
+   ///
+   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+   factory QWeatherIcons.getIconWith(String? tag) {
+     if (tag == null) return QWeatherIcons.tag_unknown;
+     for (QWeatherIcons icons in QWeatherIcons.values) {
+       if (icons.tag == tag) return icons;
+     }
+     return QWeatherIcons.tag_unknown;
+   }
 
-    /// get filled icon with [qWeatherIcons]
-    ///
-    /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
-      if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
-      for (QWeatherIcons icons in QWeatherIcons.values) {
-        if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
-      }
-      return QWeatherIcons.tag_unknown;
-    }
+   /// get filled icon with [qWeatherIcons]
+   ///
+   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+   factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
+     if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
+     for (QWeatherIcons icons in QWeatherIcons.values) {
+       if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
+     }
+     return QWeatherIcons.tag_unknown;
+   }
 
-    /// get unfilled icon with [qWeatherIcons]
-    ///
-    /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-    factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
-      if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
-      for (QWeatherIcons icons in QWeatherIcons.values) {
-        if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;
-      }
-      return QWeatherIcons.tag_unknown;
-    }
-    ```
+   /// get unfilled icon with [qWeatherIcons]
+   ///
+   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+   factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
+     if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
+     for (QWeatherIcons icons in QWeatherIcons.values) {
+       if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;
+     }
+     return QWeatherIcons.tag_unknown;
+   }
+   ```
 
 # ⏳ 进度
 

@@ -1012,6 +1012,24 @@ enum QWeatherIcons {
     iconData: IconData(61863, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_1608]
+  tag_1608(
+    tag: '1608',
+    iconData: IconData(61964, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1609]
+  tag_1609(
+    tag: '1609',
+    iconData: IconData(61965, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1610]
+  tag_1610(
+    tag: '1610',
+    iconData: IconData(61966, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_1701]
   tag_1701(
     tag: '1701',
@@ -1028,6 +1046,36 @@ enum QWeatherIcons {
   tag_1703(
     tag: '1703',
     iconData: IconData(61866, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1801]
+  tag_1801(
+    tag: '1801',
+    iconData: IconData(61967, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1802]
+  tag_1802(
+    tag: '1802',
+    iconData: IconData(61968, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1803]
+  tag_1803(
+    tag: '1803',
+    iconData: IconData(61969, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1804]
+  tag_1804(
+    tag: '1804',
+    iconData: IconData(61970, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1805]
+  tag_1805(
+    tag: '1805',
+    iconData: IconData(61971, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_2001]
@@ -1198,6 +1246,48 @@ enum QWeatherIcons {
     iconData: IconData(61894, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_2029]
+  tag_2029(
+    tag: '2029',
+    iconData: IconData(61972, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2030]
+  tag_2030(
+    tag: '2030',
+    iconData: IconData(61973, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2031]
+  tag_2031(
+    tag: '2031',
+    iconData: IconData(61974, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2032]
+  tag_2032(
+    tag: '2032',
+    iconData: IconData(61975, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2033]
+  tag_2033(
+    tag: '2033',
+    iconData: IconData(61976, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2050]
+  tag_2050(
+    tag: '2050',
+    iconData: IconData(61977, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2051]
+  tag_2051(
+    tag: '2051',
+    iconData: IconData(61978, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_2052]
   tag_2052(
     tag: '2052',
@@ -1214,6 +1304,1026 @@ enum QWeatherIcons {
   tag_2054(
     tag: '2054',
     iconData: IconData(61897, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2070]
+  tag_2070(
+    tag: '2070',
+    iconData: IconData(61979, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2071]
+  tag_2071(
+    tag: '2071',
+    iconData: IconData(61980, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2072]
+  tag_2072(
+    tag: '2072',
+    iconData: IconData(61981, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2073]
+  tag_2073(
+    tag: '2073',
+    iconData: IconData(61982, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2074]
+  tag_2074(
+    tag: '2074',
+    iconData: IconData(61983, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2075]
+  tag_2075(
+    tag: '2075',
+    iconData: IconData(61984, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2076]
+  tag_2076(
+    tag: '2076',
+    iconData: IconData(61985, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2077]
+  tag_2077(
+    tag: '2077',
+    iconData: IconData(61986, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2078]
+  tag_2078(
+    tag: '2078',
+    iconData: IconData(61987, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2079]
+  tag_2079(
+    tag: '2079',
+    iconData: IconData(61988, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2080]
+  tag_2080(
+    tag: '2080',
+    iconData: IconData(61989, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2081]
+  tag_2081(
+    tag: '2081',
+    iconData: IconData(61990, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2082]
+  tag_2082(
+    tag: '2082',
+    iconData: IconData(61991, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2083]
+  tag_2083(
+    tag: '2083',
+    iconData: IconData(61992, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2084]
+  tag_2084(
+    tag: '2084',
+    iconData: IconData(61993, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2085]
+  tag_2085(
+    tag: '2085',
+    iconData: IconData(61994, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2100]
+  tag_2100(
+    tag: '2100',
+    iconData: IconData(61995, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2101]
+  tag_2101(
+    tag: '2101',
+    iconData: IconData(61996, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2102]
+  tag_2102(
+    tag: '2102',
+    iconData: IconData(61997, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2103]
+  tag_2103(
+    tag: '2103',
+    iconData: IconData(61998, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2104]
+  tag_2104(
+    tag: '2104',
+    iconData: IconData(61999, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2105]
+  tag_2105(
+    tag: '2105',
+    iconData: IconData(62000, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2106]
+  tag_2106(
+    tag: '2106',
+    iconData: IconData(62001, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2107]
+  tag_2107(
+    tag: '2107',
+    iconData: IconData(62002, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2108]
+  tag_2108(
+    tag: '2108',
+    iconData: IconData(62003, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2109]
+  tag_2109(
+    tag: '2109',
+    iconData: IconData(62004, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2111]
+  tag_2111(
+    tag: '2111',
+    iconData: IconData(62005, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2120]
+  tag_2120(
+    tag: '2120',
+    iconData: IconData(62006, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2121]
+  tag_2121(
+    tag: '2121',
+    iconData: IconData(62007, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2122]
+  tag_2122(
+    tag: '2122',
+    iconData: IconData(62008, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2123]
+  tag_2123(
+    tag: '2123',
+    iconData: IconData(62009, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2124]
+  tag_2124(
+    tag: '2124',
+    iconData: IconData(62010, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2125]
+  tag_2125(
+    tag: '2125',
+    iconData: IconData(62011, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2126]
+  tag_2126(
+    tag: '2126',
+    iconData: IconData(62012, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2127]
+  tag_2127(
+    tag: '2127',
+    iconData: IconData(62013, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2128]
+  tag_2128(
+    tag: '2128',
+    iconData: IconData(62014, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2129]
+  tag_2129(
+    tag: '2129',
+    iconData: IconData(62015, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2130]
+  tag_2130(
+    tag: '2130',
+    iconData: IconData(62016, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2131]
+  tag_2131(
+    tag: '2131',
+    iconData: IconData(62017, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2132]
+  tag_2132(
+    tag: '2132',
+    iconData: IconData(62018, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2133]
+  tag_2133(
+    tag: '2133',
+    iconData: IconData(62019, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2134]
+  tag_2134(
+    tag: '2134',
+    iconData: IconData(62020, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2135]
+  tag_2135(
+    tag: '2135',
+    iconData: IconData(62021, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2150]
+  tag_2150(
+    tag: '2150',
+    iconData: IconData(62022, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2151]
+  tag_2151(
+    tag: '2151',
+    iconData: IconData(62023, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2152]
+  tag_2152(
+    tag: '2152',
+    iconData: IconData(62024, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2153]
+  tag_2153(
+    tag: '2153',
+    iconData: IconData(62025, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2154]
+  tag_2154(
+    tag: '2154',
+    iconData: IconData(62026, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2155]
+  tag_2155(
+    tag: '2155',
+    iconData: IconData(62027, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2156]
+  tag_2156(
+    tag: '2156',
+    iconData: IconData(62028, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2157]
+  tag_2157(
+    tag: '2157',
+    iconData: IconData(62029, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2158]
+  tag_2158(
+    tag: '2158',
+    iconData: IconData(62030, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2159]
+  tag_2159(
+    tag: '2159',
+    iconData: IconData(62031, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2160]
+  tag_2160(
+    tag: '2160',
+    iconData: IconData(62032, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2161]
+  tag_2161(
+    tag: '2161',
+    iconData: IconData(62033, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2162]
+  tag_2162(
+    tag: '2162',
+    iconData: IconData(62034, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2163]
+  tag_2163(
+    tag: '2163',
+    iconData: IconData(62035, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2164]
+  tag_2164(
+    tag: '2164',
+    iconData: IconData(62036, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2165]
+  tag_2165(
+    tag: '2165',
+    iconData: IconData(62037, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2166]
+  tag_2166(
+    tag: '2166',
+    iconData: IconData(62038, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2190]
+  tag_2190(
+    tag: '2190',
+    iconData: IconData(62039, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2191]
+  tag_2191(
+    tag: '2191',
+    iconData: IconData(62040, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2192]
+  tag_2192(
+    tag: '2192',
+    iconData: IconData(62041, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2193]
+  tag_2193(
+    tag: '2193',
+    iconData: IconData(62042, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2300]
+  tag_2300(
+    tag: '2300',
+    iconData: IconData(62043, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2301]
+  tag_2301(
+    tag: '2301',
+    iconData: IconData(62044, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2302]
+  tag_2302(
+    tag: '2302',
+    iconData: IconData(62045, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2303]
+  tag_2303(
+    tag: '2303',
+    iconData: IconData(62046, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2304]
+  tag_2304(
+    tag: '2304',
+    iconData: IconData(62047, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2305]
+  tag_2305(
+    tag: '2305',
+    iconData: IconData(62048, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2306]
+  tag_2306(
+    tag: '2306',
+    iconData: IconData(62049, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2307]
+  tag_2307(
+    tag: '2307',
+    iconData: IconData(62050, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2308]
+  tag_2308(
+    tag: '2308',
+    iconData: IconData(62051, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2309]
+  tag_2309(
+    tag: '2309',
+    iconData: IconData(62052, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2311]
+  tag_2311(
+    tag: '2311',
+    iconData: IconData(62053, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2312]
+  tag_2312(
+    tag: '2312',
+    iconData: IconData(62054, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2313]
+  tag_2313(
+    tag: '2313',
+    iconData: IconData(62055, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2314]
+  tag_2314(
+    tag: '2314',
+    iconData: IconData(62056, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2315]
+  tag_2315(
+    tag: '2315',
+    iconData: IconData(62057, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2316]
+  tag_2316(
+    tag: '2316',
+    iconData: IconData(62058, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2317]
+  tag_2317(
+    tag: '2317',
+    iconData: IconData(62059, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2318]
+  tag_2318(
+    tag: '2318',
+    iconData: IconData(62060, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2319]
+  tag_2319(
+    tag: '2319',
+    iconData: IconData(62061, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2320]
+  tag_2320(
+    tag: '2320',
+    iconData: IconData(62062, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2321]
+  tag_2321(
+    tag: '2321',
+    iconData: IconData(62063, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2322]
+  tag_2322(
+    tag: '2322',
+    iconData: IconData(62064, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2323]
+  tag_2323(
+    tag: '2323',
+    iconData: IconData(62065, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2324]
+  tag_2324(
+    tag: '2324',
+    iconData: IconData(62066, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2325]
+  tag_2325(
+    tag: '2325',
+    iconData: IconData(62067, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2326]
+  tag_2326(
+    tag: '2326',
+    iconData: IconData(62068, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2327]
+  tag_2327(
+    tag: '2327',
+    iconData: IconData(62069, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2328]
+  tag_2328(
+    tag: '2328',
+    iconData: IconData(62070, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2330]
+  tag_2330(
+    tag: '2330',
+    iconData: IconData(62071, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2331]
+  tag_2331(
+    tag: '2331',
+    iconData: IconData(62072, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2332]
+  tag_2332(
+    tag: '2332',
+    iconData: IconData(62073, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2333]
+  tag_2333(
+    tag: '2333',
+    iconData: IconData(62074, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2341]
+  tag_2341(
+    tag: '2341',
+    iconData: IconData(62075, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2343]
+  tag_2343(
+    tag: '2343',
+    iconData: IconData(62076, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2345]
+  tag_2345(
+    tag: '2345',
+    iconData: IconData(62077, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2346]
+  tag_2346(
+    tag: '2346',
+    iconData: IconData(62078, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2348]
+  tag_2348(
+    tag: '2348',
+    iconData: IconData(62079, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2349]
+  tag_2349(
+    tag: '2349',
+    iconData: IconData(62080, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2350]
+  tag_2350(
+    tag: '2350',
+    iconData: IconData(62081, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2351]
+  tag_2351(
+    tag: '2351',
+    iconData: IconData(62082, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2352]
+  tag_2352(
+    tag: '2352',
+    iconData: IconData(62083, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2353]
+  tag_2353(
+    tag: '2353',
+    iconData: IconData(62084, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2354]
+  tag_2354(
+    tag: '2354',
+    iconData: IconData(62085, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2355]
+  tag_2355(
+    tag: '2355',
+    iconData: IconData(62086, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2356]
+  tag_2356(
+    tag: '2356',
+    iconData: IconData(62087, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2357]
+  tag_2357(
+    tag: '2357',
+    iconData: IconData(62088, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2358]
+  tag_2358(
+    tag: '2358',
+    iconData: IconData(62089, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2359]
+  tag_2359(
+    tag: '2359',
+    iconData: IconData(62090, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2360]
+  tag_2360(
+    tag: '2360',
+    iconData: IconData(62091, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2361]
+  tag_2361(
+    tag: '2361',
+    iconData: IconData(62092, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2362]
+  tag_2362(
+    tag: '2362',
+    iconData: IconData(62093, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2363]
+  tag_2363(
+    tag: '2363',
+    iconData: IconData(62094, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2364]
+  tag_2364(
+    tag: '2364',
+    iconData: IconData(62095, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2365]
+  tag_2365(
+    tag: '2365',
+    iconData: IconData(62096, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2366]
+  tag_2366(
+    tag: '2366',
+    iconData: IconData(62097, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2367]
+  tag_2367(
+    tag: '2367',
+    iconData: IconData(62098, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2368]
+  tag_2368(
+    tag: '2368',
+    iconData: IconData(62099, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2369]
+  tag_2369(
+    tag: '2369',
+    iconData: IconData(62100, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2370]
+  tag_2370(
+    tag: '2370',
+    iconData: IconData(62101, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2371]
+  tag_2371(
+    tag: '2371',
+    iconData: IconData(62102, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2372]
+  tag_2372(
+    tag: '2372',
+    iconData: IconData(62103, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2373]
+  tag_2373(
+    tag: '2373',
+    iconData: IconData(62104, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2374]
+  tag_2374(
+    tag: '2374',
+    iconData: IconData(62105, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2375]
+  tag_2375(
+    tag: '2375',
+    iconData: IconData(62106, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2376]
+  tag_2376(
+    tag: '2376',
+    iconData: IconData(62107, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2377]
+  tag_2377(
+    tag: '2377',
+    iconData: IconData(62108, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2378]
+  tag_2378(
+    tag: '2378',
+    iconData: IconData(62109, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2379]
+  tag_2379(
+    tag: '2379',
+    iconData: IconData(62110, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2380]
+  tag_2380(
+    tag: '2380',
+    iconData: IconData(62111, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2381]
+  tag_2381(
+    tag: '2381',
+    iconData: IconData(62112, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2382]
+  tag_2382(
+    tag: '2382',
+    iconData: IconData(62113, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2383]
+  tag_2383(
+    tag: '2383',
+    iconData: IconData(62114, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2384]
+  tag_2384(
+    tag: '2384',
+    iconData: IconData(62115, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2385]
+  tag_2385(
+    tag: '2385',
+    iconData: IconData(62116, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2386]
+  tag_2386(
+    tag: '2386',
+    iconData: IconData(62117, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2387]
+  tag_2387(
+    tag: '2387',
+    iconData: IconData(62118, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2388]
+  tag_2388(
+    tag: '2388',
+    iconData: IconData(62119, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2389]
+  tag_2389(
+    tag: '2389',
+    iconData: IconData(62120, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2390]
+  tag_2390(
+    tag: '2390',
+    iconData: IconData(62121, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2391]
+  tag_2391(
+    tag: '2391',
+    iconData: IconData(62122, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2392]
+  tag_2392(
+    tag: '2392',
+    iconData: IconData(62123, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2393]
+  tag_2393(
+    tag: '2393',
+    iconData: IconData(62124, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2394]
+  tag_2394(
+    tag: '2394',
+    iconData: IconData(62125, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2395]
+  tag_2395(
+    tag: '2395',
+    iconData: IconData(62126, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2396]
+  tag_2396(
+    tag: '2396',
+    iconData: IconData(62127, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2397]
+  tag_2397(
+    tag: '2397',
+    iconData: IconData(62128, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2398]
+  tag_2398(
+    tag: '2398',
+    iconData: IconData(62129, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2399]
+  tag_2399(
+    tag: '2399',
+    iconData: IconData(62130, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2400]
+  tag_2400(
+    tag: '2400',
+    iconData: IconData(62131, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2409]
+  tag_2409(
+    tag: '2409',
+    iconData: IconData(62132, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2411]
+  tag_2411(
+    tag: '2411',
+    iconData: IconData(62133, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2412]
+  tag_2412(
+    tag: '2412',
+    iconData: IconData(62134, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2413]
+  tag_2413(
+    tag: '2413',
+    iconData: IconData(62135, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2414]
+  tag_2414(
+    tag: '2414',
+    iconData: IconData(62136, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2415]
+  tag_2415(
+    tag: '2415',
+    iconData: IconData(62137, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2416]
+  tag_2416(
+    tag: '2416',
+    iconData: IconData(62138, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2417]
+  tag_2417(
+    tag: '2417',
+    iconData: IconData(62139, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2418]
+  tag_2418(
+    tag: '2418',
+    iconData: IconData(62140, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2419]
+  tag_2419(
+    tag: '2419',
+    iconData: IconData(62141, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2420]
+  tag_2420(
+    tag: '2420',
+    iconData: IconData(62142, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2421]
+  tag_2421(
+    tag: '2421',
+    iconData: IconData(62143, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2422]
+  tag_2422(
+    tag: '2422',
+    iconData: IconData(62144, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2423]
+  tag_2423(
+    tag: '2423',
+    iconData: IconData(62145, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2424]
+  tag_2424(
+    tag: '2424',
+    iconData: IconData(62146, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2425]
+  tag_2425(
+    tag: '2425',
+    iconData: IconData(62147, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2426]
+  tag_2426(
+    tag: '2426',
+    iconData: IconData(62148, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_9998]
@@ -1729,7 +2839,7 @@ enum QWeatherIcons {
   /// [QWeatherIcons] with [tag_storm]
   tag_storm(
     tag: 'storm',
-    iconData: IconData(61897, fontFamily: _fontFam, fontPackage: _fontPak),
+    iconData: IconData(61716, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_heavy_storm]
@@ -2071,7 +3181,7 @@ enum QWeatherIcons {
   /// [QWeatherIcons] with [tag_low_temperature_freeze]
   tag_low_temperature_freeze(
     tag: 'low_temperature_freeze',
-    iconData: IconData(61850, fontFamily: _fontFam, fontPackage: _fontPak),
+    iconData: IconData(61774, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_high_temperature]
@@ -2524,6 +3634,12 @@ enum QWeatherIcons {
     iconData: IconData(61849, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_low_temperature_freeze2]
+  tag_low_temperature_freeze2(
+    tag: 'low_temperature_freeze2',
+    iconData: IconData(61850, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_low_temperature_damage]
   tag_low_temperature_damage(
     tag: 'low_temperature_damage',
@@ -2602,6 +3718,24 @@ enum QWeatherIcons {
     iconData: IconData(61863, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_thunderstorm2]
+  tag_thunderstorm2(
+    tag: 'thunderstorm2',
+    iconData: IconData(61964, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rainstorm2]
+  tag_rainstorm2(
+    tag: 'rainstorm2',
+    iconData: IconData(61965, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_frost2]
+  tag_frost2(
+    tag: 'frost2',
+    iconData: IconData(61966, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_cold_surge_advisory]
   tag_cold_surge_advisory(
     tag: 'cold_surge_advisory',
@@ -2618,6 +3752,36 @@ enum QWeatherIcons {
   tag_rainfall_advisory(
     tag: 'rainfall_advisory',
     iconData: IconData(61866, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_strong_monsoon_signal2]
+  tag_strong_monsoon_signal2(
+    tag: 'strong_monsoon_signal2',
+    iconData: IconData(61967, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_surge2]
+  tag_storm_surge2(
+    tag: 'storm_surge2',
+    iconData: IconData(61968, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tropical_cyclone2]
+  tag_tropical_cyclone2(
+    tag: 'tropical_cyclone2',
+    iconData: IconData(61969, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rainstorm3]
+  tag_rainstorm3(
+    tag: 'rainstorm3',
+    iconData: IconData(61970, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorm3]
+  tag_thunderstorm3(
+    tag: 'thunderstorm3',
+    iconData: IconData(61971, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_wind_warning]
@@ -2788,6 +3952,48 @@ enum QWeatherIcons {
     iconData: IconData(61894, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_thunderstorm4]
+  tag_thunderstorm4(
+    tag: 'thunderstorm4',
+    iconData: IconData(61972, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_temperature2]
+  tag_high_temperature2(
+    tag: 'high_temperature2',
+    iconData: IconData(61973, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_low_temperature2]
+  tag_low_temperature2(
+    tag: 'low_temperature2',
+    iconData: IconData(61974, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_avalanches]
+  tag_avalanches(
+    tag: 'avalanches',
+    iconData: IconData(61975, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flooding]
+  tag_flooding(
+    tag: 'flooding',
+    iconData: IconData(61976, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rain_warning2]
+  tag_rain_warning2(
+    tag: 'rain_warning2',
+    iconData: IconData(62032, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind]
+  tag_wind(
+    tag: 'wind',
+    iconData: IconData(61978, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_snow_warning]
   tag_snow_warning(
     tag: 'snow_warning',
@@ -2798,6 +4004,1020 @@ enum QWeatherIcons {
   tag_zonda_wind(
     tag: 'zonda_wind',
     iconData: IconData(61896, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_warning]
+  tag_storm_warning(
+    tag: 'storm_warning',
+    iconData: IconData(61897, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dust_raising_winds2]
+  tag_dust_raising_winds2(
+    tag: 'dust_raising_winds2',
+    iconData: IconData(61979, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_strong_surface_winds2]
+  tag_strong_surface_winds2(
+    tag: 'strong_surface_winds2',
+    iconData: IconData(61980, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hot_day2]
+  tag_hot_day2(
+    tag: 'hot_day2',
+    iconData: IconData(61981, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_warm_night2]
+  tag_warm_night2(
+    tag: 'warm_night2',
+    iconData: IconData(61982, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_cold_day2]
+  tag_cold_day2(
+    tag: 'cold_day2',
+    iconData: IconData(61983, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorm_and_lightning2]
+  tag_thunderstorm_and_lightning2(
+    tag: 'thunderstorm_and_lightning2',
+    iconData: IconData(61984, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hailstorm2]
+  tag_hailstorm2(
+    tag: 'hailstorm2',
+    iconData: IconData(61985, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_sea_area_warning2]
+  tag_sea_area_warning2(
+    tag: 'sea_area_warning2',
+    iconData: IconData(61986, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fishermen_warning2]
+  tag_fishermen_warning2(
+    tag: 'fishermen_warning2',
+    iconData: IconData(61987, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_snow_warning2]
+  tag_heavy_snow_warning2(
+    tag: 'heavy_snow_warning2',
+    iconData: IconData(62019, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dust_storm]
+  tag_dust_storm(
+    tag: 'dust_storm',
+    iconData: IconData(61989, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heat_wave2]
+  tag_heat_wave2(
+    tag: 'heat_wave2',
+    iconData: IconData(61990, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_cold_wave2]
+  tag_cold_wave2(
+    tag: 'cold_wave2',
+    iconData: IconData(61991, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fog2]
+  tag_fog2(
+    tag: 'fog2',
+    iconData: IconData(61992, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_rain_warning]
+  tag_heavy_rain_warning(
+    tag: 'heavy_rain_warning',
+    iconData: IconData(61993, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_ground_frost2]
+  tag_ground_frost2(
+    tag: 'ground_frost2',
+    iconData: IconData(61994, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fog3]
+  tag_fog3(
+    tag: 'fog3',
+    iconData: IconData(61995, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunder_rain2]
+  tag_thunder_rain2(
+    tag: 'thunder_rain2',
+    iconData: IconData(61996, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunder_storm]
+  tag_thunder_storm(
+    tag: 'thunder_storm',
+    iconData: IconData(61997, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_light_rain_warning]
+  tag_light_rain_warning(
+    tag: 'light_rain_warning',
+    iconData: IconData(61998, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_rain_warning2]
+  tag_heavy_rain_warning2(
+    tag: 'heavy_rain_warning2',
+    iconData: IconData(61999, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fresh_wind]
+  tag_fresh_wind(
+    tag: 'fresh_wind',
+    iconData: IconData(62000, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorm_and_dust]
+  tag_thunderstorm_and_dust(
+    tag: 'thunderstorm_and_dust',
+    iconData: IconData(62001, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dust_warning]
+  tag_dust_warning(
+    tag: 'dust_warning',
+    iconData: IconData(62002, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_wave]
+  tag_high_wave(
+    tag: 'high_wave',
+    iconData: IconData(62003, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_frost3]
+  tag_frost3(
+    tag: 'frost3',
+    iconData: IconData(62004, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_drop_in_visibility]
+  tag_drop_in_visibility(
+    tag: 'drop_in_visibility',
+    iconData: IconData(62005, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_low_humidity2]
+  tag_low_humidity2(
+    tag: 'low_humidity2',
+    iconData: IconData(62006, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_accumulated_rain2]
+  tag_accumulated_rain2(
+    tag: 'accumulated_rain2',
+    iconData: IconData(62007, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_cold_wave3]
+  tag_cold_wave3(
+    tag: 'cold_wave3',
+    iconData: IconData(62008, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tornado2]
+  tag_tornado2(
+    tag: 'tornado2',
+    iconData: IconData(62009, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorm5]
+  tag_thunderstorm5(
+    tag: 'thunderstorm5',
+    iconData: IconData(62010, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hail2]
+  tag_hail2(
+    tag: 'hail2',
+    iconData: IconData(62011, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_rainfall2]
+  tag_heavy_rainfall2(
+    tag: 'heavy_rainfall2',
+    iconData: IconData(62012, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_gale2]
+  tag_gale2(
+    tag: 'gale2',
+    iconData: IconData(62013, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heat_wave3]
+  tag_heat_wave3(
+    tag: 'heat_wave3',
+    iconData: IconData(62014, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_cold_warning2]
+  tag_cold_warning2(
+    tag: 'cold_warning2',
+    iconData: IconData(62015, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_frost4]
+  tag_frost4(
+    tag: 'frost4',
+    iconData: IconData(62016, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_drought2]
+  tag_drought2(
+    tag: 'drought2',
+    iconData: IconData(62017, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_forest_fire2]
+  tag_forest_fire2(
+    tag: 'forest_fire2',
+    iconData: IconData(62018, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_severely_falling_temperature2]
+  tag_severely_falling_temperature2(
+    tag: 'severely_falling_temperature2',
+    iconData: IconData(62020, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rainstorm4]
+  tag_rainstorm4(
+    tag: 'rainstorm4',
+    iconData: IconData(62021, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind2]
+  tag_wind2(
+    tag: 'wind2',
+    iconData: IconData(62022, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_snow_ice2]
+  tag_snow_ice2(
+    tag: 'snow_ice2',
+    iconData: IconData(62023, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freeze2]
+  tag_freeze2(
+    tag: 'freeze2',
+    iconData: IconData(62024, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorms]
+  tag_thunderstorms(
+    tag: 'thunderstorms',
+    iconData: IconData(62025, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fog4]
+  tag_fog4(
+    tag: 'fog4',
+    iconData: IconData(62026, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_temperature3]
+  tag_high_temperature3(
+    tag: 'high_temperature3',
+    iconData: IconData(62027, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_low_temperature3]
+  tag_low_temperature3(
+    tag: 'low_temperature3',
+    iconData: IconData(62028, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_coastal_event2]
+  tag_coastal_event2(
+    tag: 'coastal_event2',
+    iconData: IconData(62029, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_forest_fire3]
+  tag_forest_fire3(
+    tag: 'forest_fire3',
+    iconData: IconData(62030, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_avalanches2]
+  tag_avalanches2(
+    tag: 'avalanches2',
+    iconData: IconData(62031, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood2]
+  tag_flood2(
+    tag: 'flood2',
+    iconData: IconData(62033, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rain_flood2]
+  tag_rain_flood2(
+    tag: 'rain_flood2',
+    iconData: IconData(62034, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_mudflow2]
+  tag_mudflow2(
+    tag: 'mudflow2',
+    iconData: IconData(62035, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_duststorm_warning]
+  tag_duststorm_warning(
+    tag: 'duststorm_warning',
+    iconData: IconData(62036, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freezing_rain_and_icing]
+  tag_freezing_rain_and_icing(
+    tag: 'freezing_rain_and_icing',
+    iconData: IconData(62037, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_other_dangers]
+  tag_other_dangers(
+    tag: 'other_dangers',
+    iconData: IconData(62038, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_severe_thunderstorms]
+  tag_severe_thunderstorms(
+    tag: 'severe_thunderstorms',
+    iconData: IconData(62039, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_damaging_winds2]
+  tag_damaging_winds2(
+    tag: 'damaging_winds2',
+    iconData: IconData(62040, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_veld_fire_conditions2]
+  tag_veld_fire_conditions2(
+    tag: 'veld_fire_conditions2',
+    iconData: IconData(62041, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_weather_advisory2]
+  tag_weather_advisory2(
+    tag: 'weather_advisory2',
+    iconData: IconData(62042, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hazardous_seas_warning]
+  tag_hazardous_seas_warning(
+    tag: 'hazardous_seas_warning',
+    iconData: IconData(62043, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_freezing_spray_warning]
+  tag_heavy_freezing_spray_warning(
+    tag: 'heavy_freezing_spray_warning',
+    iconData: IconData(62044, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_red_flag_warning]
+  tag_red_flag_warning(
+    tag: 'red_flag_warning',
+    iconData: IconData(62045, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freeze_warning]
+  tag_freeze_warning(
+    tag: 'freeze_warning',
+    iconData: IconData(62046, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hard_freeze_warning]
+  tag_hard_freeze_warning(
+    tag: 'hard_freeze_warning',
+    iconData: IconData(62047, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_extreme_cold_warning]
+  tag_extreme_cold_warning(
+    tag: 'extreme_cold_warning',
+    iconData: IconData(62048, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind_chill_warning]
+  tag_wind_chill_warning(
+    tag: 'wind_chill_warning',
+    iconData: IconData(62049, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_gale_warning]
+  tag_gale_warning(
+    tag: 'gale_warning',
+    iconData: IconData(62050, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_excessive_heat_warning]
+  tag_excessive_heat_warning(
+    tag: 'excessive_heat_warning',
+    iconData: IconData(62051, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lake_effect_snow_warning]
+  tag_lake_effect_snow_warning(
+    tag: 'lake_effect_snow_warning',
+    iconData: IconData(62052, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_blowing_dust_warning]
+  tag_blowing_dust_warning(
+    tag: 'blowing_dust_warning',
+    iconData: IconData(62053, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dust_storm_warning]
+  tag_dust_storm_warning(
+    tag: 'dust_storm_warning',
+    iconData: IconData(62054, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_warning2]
+  tag_storm_warning2(
+    tag: 'storm_warning2',
+    iconData: IconData(62055, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tropical_storm_warning]
+  tag_tropical_storm_warning(
+    tag: 'tropical_storm_warning',
+    iconData: IconData(62056, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_wind_warning]
+  tag_high_wind_warning(
+    tag: 'high_wind_warning',
+    iconData: IconData(62057, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_surf_warning]
+  tag_high_surf_warning(
+    tag: 'high_surf_warning',
+    iconData: IconData(62058, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood_warning]
+  tag_flood_warning(
+    tag: 'flood_warning',
+    iconData: IconData(62059, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lakeshore_flood_warning]
+  tag_lakeshore_flood_warning(
+    tag: 'lakeshore_flood_warning',
+    iconData: IconData(62060, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_coastal_flood_warning]
+  tag_coastal_flood_warning(
+    tag: 'coastal_flood_warning',
+    iconData: IconData(62061, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_ashfall_warning]
+  tag_ashfall_warning(
+    tag: 'ashfall_warning',
+    iconData: IconData(62062, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_volcano_warning]
+  tag_volcano_warning(
+    tag: 'volcano_warning',
+    iconData: IconData(62063, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_earthquake_warning]
+  tag_earthquake_warning(
+    tag: 'earthquake_warning',
+    iconData: IconData(62064, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_avalanche_warning]
+  tag_avalanche_warning(
+    tag: 'avalanche_warning',
+    iconData: IconData(62065, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_winter_storm_warning]
+  tag_winter_storm_warning(
+    tag: 'winter_storm_warning',
+    iconData: IconData(62066, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_ice_storm_warning]
+  tag_ice_storm_warning(
+    tag: 'ice_storm_warning',
+    iconData: IconData(62067, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_snow_squall_warning]
+  tag_snow_squall_warning(
+    tag: 'snow_squall_warning',
+    iconData: IconData(62068, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_blizzard_warning]
+  tag_blizzard_warning(
+    tag: 'blizzard_warning',
+    iconData: IconData(62069, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_special_marine_warning]
+  tag_special_marine_warning(
+    tag: 'special_marine_warning',
+    iconData: IconData(62070, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_typhoon_warning]
+  tag_typhoon_warning(
+    tag: 'typhoon_warning',
+    iconData: IconData(62071, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hurricane_warning]
+  tag_hurricane_warning(
+    tag: 'hurricane_warning',
+    iconData: IconData(62072, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hurricane_force_wind_warning]
+  tag_hurricane_force_wind_warning(
+    tag: 'hurricane_force_wind_warning',
+    iconData: IconData(62073, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_surge_warning]
+  tag_storm_surge_warning(
+    tag: 'storm_surge_warning',
+    iconData: IconData(62074, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flash_flood_warning]
+  tag_flash_flood_warning(
+    tag: 'flash_flood_warning',
+    iconData: IconData(62075, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_severe_thunderstorm_warning]
+  tag_severe_thunderstorm_warning(
+    tag: 'severe_thunderstorm_warning',
+    iconData: IconData(62076, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_extreme_wind_warning]
+  tag_extreme_wind_warning(
+    tag: 'extreme_wind_warning',
+    iconData: IconData(62077, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tornado_warning]
+  tag_tornado_warning(
+    tag: 'tornado_warning',
+    iconData: IconData(62078, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tsunami_warning]
+  tag_tsunami_warning(
+    tag: 'tsunami_warning',
+    iconData: IconData(62079, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_fire_weather_watch]
+  tag_fire_weather_watch(
+    tag: 'fire_weather_watch',
+    iconData: IconData(62080, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freeze_watch]
+  tag_freeze_watch(
+    tag: 'freeze_watch',
+    iconData: IconData(62081, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hard_freeze_watch]
+  tag_hard_freeze_watch(
+    tag: 'hard_freeze_watch',
+    iconData: IconData(62082, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind_chill_watch]
+  tag_wind_chill_watch(
+    tag: 'wind_chill_watch',
+    iconData: IconData(62083, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_extreme_cold_watch]
+  tag_extreme_cold_watch(
+    tag: 'extreme_cold_watch',
+    iconData: IconData(62084, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_excessive_heat_watch]
+  tag_excessive_heat_watch(
+    tag: 'excessive_heat_watch',
+    iconData: IconData(62085, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_wind_watch]
+  tag_high_wind_watch(
+    tag: 'high_wind_watch',
+    iconData: IconData(62086, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood_watch]
+  tag_flood_watch(
+    tag: 'flood_watch',
+    iconData: IconData(62087, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lakeshore_flood_watch]
+  tag_lakeshore_flood_watch(
+    tag: 'lakeshore_flood_watch',
+    iconData: IconData(62088, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_coastal_flood_watch]
+  tag_coastal_flood_watch(
+    tag: 'coastal_flood_watch',
+    iconData: IconData(62089, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_freezing_spray_watch]
+  tag_heavy_freezing_spray_watch(
+    tag: 'heavy_freezing_spray_watch',
+    iconData: IconData(62090, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hazardous_seas_watch]
+  tag_hazardous_seas_watch(
+    tag: 'hazardous_seas_watch',
+    iconData: IconData(62091, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_winter_storm_watch]
+  tag_winter_storm_watch(
+    tag: 'winter_storm_watch',
+    iconData: IconData(62092, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_gale_watch]
+  tag_gale_watch(
+    tag: 'gale_watch',
+    iconData: IconData(62093, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_avalanche_watch]
+  tag_avalanche_watch(
+    tag: 'avalanche_watch',
+    iconData: IconData(62094, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_watch]
+  tag_storm_watch(
+    tag: 'storm_watch',
+    iconData: IconData(62095, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tropical_storm_watch]
+  tag_tropical_storm_watch(
+    tag: 'tropical_storm_watch',
+    iconData: IconData(62096, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_typhoon_watch]
+  tag_typhoon_watch(
+    tag: 'typhoon_watch',
+    iconData: IconData(62097, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hurricane_force_wind_watch]
+  tag_hurricane_force_wind_watch(
+    tag: 'hurricane_force_wind_watch',
+    iconData: IconData(62098, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hurricane_watch]
+  tag_hurricane_watch(
+    tag: 'hurricane_watch',
+    iconData: IconData(62099, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_storm_surge_watch]
+  tag_storm_surge_watch(
+    tag: 'storm_surge_watch',
+    iconData: IconData(62100, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flash_flood_watch]
+  tag_flash_flood_watch(
+    tag: 'flash_flood_watch',
+    iconData: IconData(62101, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_severe_thunderstorm_watch]
+  tag_severe_thunderstorm_watch(
+    tag: 'severe_thunderstorm_watch',
+    iconData: IconData(62102, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tornado_watch]
+  tag_tornado_watch(
+    tag: 'tornado_watch',
+    iconData: IconData(62103, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tsunami_watch]
+  tag_tsunami_watch(
+    tag: 'tsunami_watch',
+    iconData: IconData(62104, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_air_stagnation_advisory]
+  tag_air_stagnation_advisory(
+    tag: 'air_stagnation_advisory',
+    iconData: IconData(62105, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_low_water_advisory]
+  tag_low_water_advisory(
+    tag: 'low_water_advisory',
+    iconData: IconData(62106, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freezing_spray_advisory]
+  tag_freezing_spray_advisory(
+    tag: 'freezing_spray_advisory',
+    iconData: IconData(62107, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_freezing_fog_advisory]
+  tag_freezing_fog_advisory(
+    tag: 'freezing_fog_advisory',
+    iconData: IconData(62108, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_ashfall_advisory]
+  tag_ashfall_advisory(
+    tag: 'ashfall_advisory',
+    iconData: IconData(62109, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_frost_advisory]
+  tag_frost_advisory(
+    tag: 'frost_advisory',
+    iconData: IconData(62110, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind_advisory]
+  tag_wind_advisory(
+    tag: 'wind_advisory',
+    iconData: IconData(62111, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lake_wind_advisory]
+  tag_lake_wind_advisory(
+    tag: 'lake_wind_advisory',
+    iconData: IconData(62112, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_blowing_dust_advisory]
+  tag_blowing_dust_advisory(
+    tag: 'blowing_dust_advisory',
+    iconData: IconData(62113, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dust_advisory]
+  tag_dust_advisory(
+    tag: 'dust_advisory',
+    iconData: IconData(62114, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_brisk_wind_advisory]
+  tag_brisk_wind_advisory(
+    tag: 'brisk_wind_advisory',
+    iconData: IconData(62115, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_small_craft_advisory]
+  tag_small_craft_advisory(
+    tag: 'small_craft_advisory',
+    iconData: IconData(62116, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_small_craft_advisory_for_winds]
+  tag_small_craft_advisory_for_winds(
+    tag: 'small_craft_advisory_for_winds',
+    iconData: IconData(62117, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_small_craft_advisory_for_rough_bar]
+  tag_small_craft_advisory_for_rough_bar(
+    tag: 'small_craft_advisory_for_rough_bar',
+    iconData: IconData(62118, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_small_craft_advisory_for_hazardous_seas]
+  tag_small_craft_advisory_for_hazardous_seas(
+    tag: 'small_craft_advisory_for_hazardous_seas',
+    iconData: IconData(62119, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dense_smoke_advisory]
+  tag_dense_smoke_advisory(
+    tag: 'dense_smoke_advisory',
+    iconData: IconData(62120, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dense_fog_advisory]
+  tag_dense_fog_advisory(
+    tag: 'dense_fog_advisory',
+    iconData: IconData(62121, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_surf_advisory]
+  tag_high_surf_advisory(
+    tag: 'high_surf_advisory',
+    iconData: IconData(62122, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_coastal_flood_advisory]
+  tag_coastal_flood_advisory(
+    tag: 'coastal_flood_advisory',
+    iconData: IconData(62123, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lakeshore_flood_advisory]
+  tag_lakeshore_flood_advisory(
+    tag: 'lakeshore_flood_advisory',
+    iconData: IconData(62124, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hydrologic_advisory]
+  tag_hydrologic_advisory(
+    tag: 'hydrologic_advisory',
+    iconData: IconData(62125, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood_advisory]
+  tag_flood_advisory(
+    tag: 'flood_advisory',
+    iconData: IconData(62126, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heat_advisory]
+  tag_heat_advisory(
+    tag: 'heat_advisory',
+    iconData: IconData(62127, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_wind_chill_advisory]
+  tag_wind_chill_advisory(
+    tag: 'wind_chill_advisory',
+    iconData: IconData(62128, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_winter_weather_advisory]
+  tag_winter_weather_advisory(
+    tag: 'winter_weather_advisory',
+    iconData: IconData(62129, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_avalanche_advisory]
+  tag_avalanche_advisory(
+    tag: 'avalanche_advisory',
+    iconData: IconData(62130, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tsunami_advisory]
+  tag_tsunami_advisory(
+    tag: 'tsunami_advisory',
+    iconData: IconData(62131, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood_statement]
+  tag_flood_statement(
+    tag: 'flood_statement',
+    iconData: IconData(62132, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hydrologic_outlook]
+  tag_hydrologic_outlook(
+    tag: 'hydrologic_outlook',
+    iconData: IconData(62133, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hazardous_weather_outlook]
+  tag_hazardous_weather_outlook(
+    tag: 'hazardous_weather_outlook',
+    iconData: IconData(62134, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_air_quality_alert]
+  tag_air_quality_alert(
+    tag: 'air_quality_alert',
+    iconData: IconData(62135, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_extreme_fire_danger]
+  tag_extreme_fire_danger(
+    tag: 'extreme_fire_danger',
+    iconData: IconData(62136, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_marine_weather_statement]
+  tag_marine_weather_statement(
+    tag: 'marine_weather_statement',
+    iconData: IconData(62137, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_special_weather_statement]
+  tag_special_weather_statement(
+    tag: 'special_weather_statement',
+    iconData: IconData(62138, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_lakeshore_flood_statement]
+  tag_lakeshore_flood_statement(
+    tag: 'lakeshore_flood_statement',
+    iconData: IconData(62139, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_coastal_flood_statement]
+  tag_coastal_flood_statement(
+    tag: 'coastal_flood_statement',
+    iconData: IconData(62140, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_beach_hazards_statement]
+  tag_beach_hazards_statement(
+    tag: 'beach_hazards_statement',
+    iconData: IconData(62141, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_rip_current_statement]
+  tag_rip_current_statement(
+    tag: 'rip_current_statement',
+    iconData: IconData(62142, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tropical_depression_local_statement]
+  tag_tropical_depression_local_statement(
+    tag: 'tropical_depression_local_statement',
+    iconData: IconData(62143, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_tropical_storm_local_statement]
+  tag_tropical_storm_local_statement(
+    tag: 'tropical_storm_local_statement',
+    iconData: IconData(62144, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_typhoon_local_statement]
+  tag_typhoon_local_statement(
+    tag: 'typhoon_local_statement',
+    iconData: IconData(62145, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_hurricane_local_statement]
+  tag_hurricane_local_statement(
+    tag: 'hurricane_local_statement',
+    iconData: IconData(62146, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_severe_weather_statement]
+  tag_severe_weather_statement(
+    tag: 'severe_weather_statement',
+    iconData: IconData(62147, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flash_flood_statement]
+  tag_flash_flood_statement(
+    tag: 'flash_flood_statement',
+    iconData: IconData(62148, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_severe_weather_warning]
