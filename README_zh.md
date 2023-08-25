@@ -39,7 +39,7 @@
 
    ```yaml
    dependencies:
-     qweather_icons: ^1.0.0
+     qweather_icons: ^1.5.0
    ```
 
 2. 在任何地方使用它

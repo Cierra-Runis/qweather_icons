@@ -39,7 +39,7 @@ An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you sh
 
    ```yaml
    dependencies:
-     qweather_icons: ^1.0.0
+     qweather_icons: ^1.5.0
    ```
 
 2. Use it any where

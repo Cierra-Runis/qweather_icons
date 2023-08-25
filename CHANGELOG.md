@@ -1,3 +1,7 @@
+## 1.5.0
+
+Rebuild for [v1.5.0](https://github.com/qwd/Icons/releases/tag/v1.5.0)
+
 ## 1.0.0
 
 Rebuild for [v1.4.0](https://github.com/qwd/Icons/releases/tag/v1.4.0)
