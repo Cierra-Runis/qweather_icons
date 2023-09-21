@@ -1,3 +1,7 @@
+## 1.5.0+2
+
+📖Bring back example
+
 ## 1.5.0+1
 
 📖Add web demo
