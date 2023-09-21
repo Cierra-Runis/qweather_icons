@@ -1,11 +1,11 @@
 <div align="center">
 
-  <img width="256" alt="qweather_icons" src="https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/icon.svg">
+  <img width="96" alt="qweather_icons" src="https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/icon.svg">
   <p>『 qweather_icons - QWeather Icons! 』</p>
   <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README.md">English  Readme</a>
 </div>
 
-`Latest update: 2023-08-14 22:36:27`
+`Latest update: 2023-09-21 17:00:44`
 
 [📚 简介](#-简介)
 
@@ -32,6 +32,8 @@
 ![screenshot_1](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_1.jpg)
 
 ![screenshot_2](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_2.jpg)
+
+或者试试 [在线示例](https://note-of-me.top/qweather_icons/)
 
 # 📦 使用方式
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-  <img width="256" alt="qweather_icons" src="https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/icon.svg">
+  <img width="96" alt="qweather_icons" src="https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/icon.svg">
   <p>『 qweather_icons - QWeather Icons! 』</p>
   <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README_zh.md">中文 Readme</a>
 </div>
 
-`Latest update: 2023-08-14 22:36:43`
+`Latest update: 2023-09-21 17:00:44`
 
 [📚 Introduction](#-Introduction)
 
@@ -32,6 +32,8 @@ An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you sh
 ![screenshot_1](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_1.jpg)
 
 ![screenshot_2](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_2.jpg)
+
+Or try out [live example app](https://note-of-me.top/qweather_icons/).
 
 # 📦 How to use
 
