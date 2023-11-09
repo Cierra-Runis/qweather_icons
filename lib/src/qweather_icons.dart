@@ -1138,6 +1138,30 @@ enum QWeatherIcons {
     iconData: IconData(62179, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_1271]
+  tag_1271(
+    tag: '1271',
+    iconData: IconData(62198, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1272]
+  tag_1272(
+    tag: '1272',
+    iconData: IconData(62199, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1273]
+  tag_1273(
+    tag: '1273',
+    iconData: IconData(62200, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1274]
+  tag_1274(
+    tag: '1274',
+    iconData: IconData(62201, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_1601]
   tag_1601(
     tag: '1601',
@@ -3992,6 +4016,30 @@ enum QWeatherIcons {
   tag_geological_hazard_risk(
     tag: 'geological_hazard_risk',
     iconData: IconData(62179, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_air_pollution_incident]
+  tag_air_pollution_incident(
+    tag: 'air_pollution_incident',
+    iconData: IconData(62198, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_air_pollution_2]
+  tag_heavy_air_pollution_2(
+    tag: 'heavy_air_pollution_2',
+    iconData: IconData(62199, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_air_pollution]
+  tag_air_pollution(
+    tag: 'air_pollution',
+    iconData: IconData(62200, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heavy_pollution_weather_2]
+  tag_heavy_pollution_weather_2(
+    tag: 'heavy_pollution_weather_2',
+    iconData: IconData(62201, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_very_hot_weather]
