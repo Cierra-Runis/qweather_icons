@@ -41,7 +41,7 @@ Or try out [live example app](https://note-of-me.top/qweather_icons/).
 
    ```yaml
    dependencies:
-     qweather_icons: ^1.5.0
+     qweather_icons: ^1.6.0
    ```
 
 2. Use it any where

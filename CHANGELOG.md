@@ -1,3 +1,7 @@
+## 1.6.0
+
+Rebuild for [v1.6.0](https://github.com/qwd/Icons/releases/tag/v1.6.0)
+
 ## 1.5.0+2
 
 📖Bring back example

@@ -110,11 +110,10 @@ packages:
   qweather_icons:
     dependency: "direct main"
     description:
-      name: qweather_icons
-      sha256: "7e33ff5857471e16442db41918cf4adac12b9ad9892f3e57e50b67ff3e9378a0"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.3"
+      path: ".."
+      relative: true
+    source: path
+    version: "1.6.0"
   sky_engine:
     dependency: transitive
     description: flutter
