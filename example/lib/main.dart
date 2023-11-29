@@ -63,7 +63,7 @@ class QWeatherCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
+    return GestureDetector(
       onTap: () => showDialog(
         context: context,
         builder: (context) => AlertDialog(
@@ -79,7 +79,7 @@ class QWeatherCard extends StatelessWidget {
                   leading: Icon(qWeatherIcons.iconData),
                   title: const Text('Usage: '),
                   subtitle: Text(
-                    '${qWeatherIcons.runtimeType}.${qWeatherIcons.name}',
+                    'QWeatherIcons.${qWeatherIcons.name}',
                   ),
                 ),
                 ListTile(
@@ -88,7 +88,7 @@ class QWeatherCard extends StatelessWidget {
                   ),
                   title: const Text('Filled Icon: '),
                   subtitle: Text(
-                    '${QWeatherIcons.getFilledIconWith(qWeatherIcons)}',
+                    'QWeatherIcons.${QWeatherIcons.getFilledIconWith(qWeatherIcons).name}',
                   ),
                 ),
                 ListTile(
@@ -97,7 +97,7 @@ class QWeatherCard extends StatelessWidget {
                   ),
                   title: const Text('Unfilled Icon: '),
                   subtitle: Text(
-                    '${QWeatherIcons.getUnfilledIconWith(qWeatherIcons)}',
+                    'QWeatherIcons.${QWeatherIcons.getUnfilledIconWith(qWeatherIcons).name}',
                   ),
                 )
               ],
