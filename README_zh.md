@@ -105,6 +105,6 @@
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/qweather_icons)](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE)
 
-该项目采用 `BSD-3-Clause` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) 以获得更多信息
+该项目采用 `MIT` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) 以获得更多信息
 
 [对 QWeather_Icons.ttf 的声明](https://github.com/qwd/Icons/blob/main/LICENSE)
