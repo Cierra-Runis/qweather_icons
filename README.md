@@ -105,6 +105,6 @@ Done...?
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/qweather_icons)](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE)
 
-This project is licensed under the terms of the `BSD-3-Clause` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details
+This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details
 
 [For QWeather_Icons.ttf](https://github.com/qwd/Icons/blob/main/LICENSE)
