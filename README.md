@@ -33,7 +33,7 @@ An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you sh
 
 ![screenshot_2](https://raw.githubusercontent.com/Cierra-Runis/qweather_icons/master/.github/sreenshot_2.jpg)
 
-Or try out [live example app](https://note-of-me.top/qweather_icons/).
+Or try out [live example app](https://cierra-runis.github.io/qweather_icons/).
 
 # 📦 How to use
 
