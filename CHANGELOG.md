@@ -1,3 +1,7 @@
+## 1.6.0+2
+
+- doc: Update README
+
 ## 1.6.0+1
 
 - gen: Update generator
