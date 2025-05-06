@@ -5,24 +5,6 @@
   <a href="https://github.com/Cierra-Runis/qweather_icons/blob/master/README_zh.md">中文 Readme</a>
 </div>
 
-`Latest update: 2023-09-21 17:00:44`
-
-[📚 Introduction](#-Introduction)
-
-[📸 Screenshots](#-Screenshots)
-
-[📦 How to use](#-How-to-use)
-
-[⏳ Rate of progress](#-Rate-of-progress)
-
-[📌 Cautions](#-Cautions)
-
-[🧑‍💻 Contributor](#-Contributor)
-
-[🔦 Declaration](#-Declaration)
-
----
-
 # 📚 Introduction
 
 An Icon package for [QWeather](https://github.com/qwd/Icons), which helps you show its icon continently.
@@ -39,9 +21,8 @@ Or try out [live example app](https://cierra-runis.github.io/qweather_icons/).
 
 1. Add latest version to `pubspec.yaml`
 
-   ```yaml
-   dependencies:
-     qweather_icons: ^1.6.0
+   ```bash
+   dart pub add
    ```
 
 2. Use it any where
@@ -53,58 +34,54 @@ Or try out [live example app](https://cierra-runis.github.io/qweather_icons/).
 3. More method
 
    ```dart
-   /// get icon with [tag]
-   ///
-   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-   factory QWeatherIcons.getIconWith(String? tag) {
-     if (tag == null) return QWeatherIcons.tag_unknown;
-     for (QWeatherIcons icons in QWeatherIcons.values) {
-       if (icons.tag == tag) return icons;
+     /// Get icon with [tag]
+     ///
+     /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+     factory QWeatherIcons.getIconWith(String? tag) {
+       if (tag == null) return QWeatherIcons.tag_unknown;
+       for (QWeatherIcons icons in QWeatherIcons.values) {
+         if (icons.tag == tag) return icons;
+       }
+       return QWeatherIcons.tag_unknown;
      }
-     return QWeatherIcons.tag_unknown;
-   }
 
-   /// get filled icon with [qWeatherIcons]
-   ///
-   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-   factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
-     if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
-     for (QWeatherIcons icons in QWeatherIcons.values) {
-       if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
+     /// Get filled icon with [qWeatherIcons]
+     ///
+     /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+     factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
+       if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
+       for (QWeatherIcons icons in QWeatherIcons.values) {
+         if ('${qWeatherIcons.tag}_fill' == icons.tag) return icons;
+       }
+       return QWeatherIcons.tag_unknown;
      }
-     return QWeatherIcons.tag_unknown;
-   }
 
-   /// get unfilled icon with [qWeatherIcons]
-   ///
-   /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
-   factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
-     if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
-     for (QWeatherIcons icons in QWeatherIcons.values) {
-       if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;
+     /// Get unfilled icon with [qWeatherIcons]
+     ///
+     /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+     factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
+       if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
+       for (QWeatherIcons icons in QWeatherIcons.values) {
+         if ('${icons.tag}_fill' == qWeatherIcons.tag) return icons;
+       }
+       return QWeatherIcons.tag_unknown;
      }
-     return QWeatherIcons.tag_unknown;
-   }
    ```
 
 # ⏳ Rate of progress
 
-Done...?
-
-# 📌 Cautions
-
-- None
+Keep watching [QWeather Icon](https://github.com/qwd/Icons).
 
 # 🧑‍💻 Contributor
 
 <a href="https://github.com/Cierra-Runis/qweather_icons/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Cierra-Runis/qweather_icons" />
+  <img src="https://contrib.rocks/image?repo=Cierra-Runis/qweather_icons" alt="contributors"/>
 </a>
 
 # 🔦 Declaration
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/qweather_icons)](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE)
 
-This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details
+This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/Cierra-Runis/qweather_icons/blob/master/LICENSE) for more details.
 
 [For QWeather_Icons.ttf](https://github.com/qwd/Icons/blob/main/LICENSE)
