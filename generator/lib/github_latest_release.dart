@@ -6,16 +6,23 @@ part 'github_latest_release.g.dart';
 
 @JsonSerializable()
 class GithubLatestRelease {
-  GithubLatestRelease();
+  const GithubLatestRelease({
+    this.tag_name,
+    this.name,
+    this.draft,
+    this.prerelease,
+    this.assets,
+    this.body,
+  });
 
   static const url = 'https://api.github.com/repos/qwd/Icons/releases/latest';
 
-  String? tag_name;
-  String? name;
-  bool? draft;
-  bool? prerelease;
-  List<GithubLatestReleaseAsset>? assets;
-  String? body;
+  final String? tag_name;
+  final String? name;
+  final bool? draft;
+  final bool? prerelease;
+  final List<GithubLatestReleaseAsset>? assets;
+  final String? body;
 
   String get assets_name => assets![0].name!;
   String get releaseUrl => assets![0].browser_download_url!;
@@ -25,18 +32,18 @@ class GithubLatestRelease {
   Map<String, dynamic> toJson() => _$GithubLatestReleaseToJson(this);
 
   static Future<GithubLatestRelease> fetch() async {
-    print('正在获取 GithubLatestRelease');
+    print('Fetching GithubLatestRelease');
 
-    GithubLatestRelease githubLatestRelease = GithubLatestRelease();
     Response response = await Dio().get(url);
-    githubLatestRelease = GithubLatestRelease.fromJson(jsonDecode('$response'));
+    final githubLatestRelease =
+        GithubLatestRelease.fromJson(jsonDecode('$response'));
     return githubLatestRelease;
   }
 
   Future<(File, File)> downloadDecode(
     GeneratorPath generatorPath,
   ) async {
-    print('正在下载 GithubLatestRelease');
+    print('Downloading GithubLatestRelease');
 
     Directory tempDir = generatorPath.tempDir;
 
@@ -44,15 +51,15 @@ class GithubLatestRelease {
       releaseUrl,
       '${tempDir.path}/$assets_name',
     );
-    print('$assets_name 已下载至 ${tempDir.path}');
 
-    print('开始解压');
+    print('$assets_name has downloaded to ${tempDir.path}');
+    print('Starting to unzipping $assets_name');
 
     List<File> files = [];
     final inputStream = InputFileStream(
       '${tempDir.path}/$assets_name',
     );
-    final archive = ZipDecoder().decodeBuffer(inputStream);
+    final archive = ZipDecoder().decodeStream(inputStream);
     for (ArchiveFile file in archive.files) {
       if (file.isFile) {
         final outputStream = OutputFileStream(
@@ -66,7 +73,7 @@ class GithubLatestRelease {
       }
     }
 
-    print('解压完成');
+    print('Unzipping $assets_name completed');
 
     return (
       files.firstWhere((e) => e.path.split('.').last == 'json'),
@@ -77,14 +84,21 @@ class GithubLatestRelease {
 
 @JsonSerializable()
 class GithubLatestReleaseAsset {
-  GithubLatestReleaseAsset();
+  const GithubLatestReleaseAsset({
+    this.name,
+    this.size,
+    this.download_count,
+    this.created_at,
+    this.updated_at,
+    this.browser_download_url,
+  });
 
-  String? name;
-  int? size;
-  int? download_count;
-  DateTime? created_at;
-  DateTime? updated_at;
-  String? browser_download_url;
+  final String? name;
+  final int? size;
+  final int? download_count;
+  final DateTime? created_at;
+  final DateTime? updated_at;
+  final String? browser_download_url;
 
   factory GithubLatestReleaseAsset.fromJson(Map<String, dynamic> json) =>
       _$GithubLatestReleaseAssetFromJson(json);

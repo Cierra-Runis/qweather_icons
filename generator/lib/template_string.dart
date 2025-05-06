@@ -4,7 +4,7 @@ extension TemplateString on String {
     params.forEach((key, value) {
       if (!RegExp(r'^[a-zA-Z_$][a-zA-Z0-9_$]*$').hasMatch(key)) {
         throw Exception(
-          'check your params, which "$key" should match dart variable naming rule',
+          'Check your params, which "$key" should match dart variable naming rule',
         );
       }
     });

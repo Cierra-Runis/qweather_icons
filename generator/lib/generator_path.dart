@@ -1,7 +1,7 @@
 import 'index.dart';
 
 class GeneratorPath {
-  GeneratorPath({
+  const GeneratorPath({
     required this.path,
     required this.workSpaceDir,
     required this.tempDir,
@@ -16,21 +16,21 @@ class GeneratorPath {
   final Directory targetDir;
 
   static Future<GeneratorPath> init() async {
-    print('目录初始化中');
-    print('获取当前位置');
-    Directory current = Directory.current;
-    print('获取工作区位置');
-    Directory workSpaceDir = current.parent;
-    Directory tempDir = Directory('${current.path}/temp');
-    print('删除原有的 temp 文件夹');
+    print('Initializing GeneratorPath');
+    print('Get current path');
+    final current = Directory.current;
+    print('Get workspace path');
+    final workSpaceDir = current.parent;
+    final tempDir = Directory('${current.path}/temp');
+    print('Remove old temp directory');
     if (await tempDir.exists()) tempDir.delete(recursive: true);
-    print('创建新的 temp 文件夹');
+    print('Create new temp directory');
     await tempDir.create(recursive: true);
-    print('源文件夹');
+    print('Source directory');
     Directory sourceDir = Directory('${current.path}/lib/');
-    print('目标文件夹');
+    print('Target directory');
     Directory targetDir = Directory('${workSpaceDir.path}/lib/src');
-    print('目录初始化完毕');
+    print('Initialized GeneratorPath');
     return GeneratorPath(
       path: current,
       workSpaceDir: workSpaceDir,

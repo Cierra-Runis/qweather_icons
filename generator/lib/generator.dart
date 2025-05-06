@@ -9,11 +9,10 @@ class Generator {
   final File json;
 
   Future<String> generate() async {
-    print('读取模板如下');
+    print('Reading template_string.txt');
     final templateString = await File(
       '${generatorPath.sourceDir.path}/template_string.txt',
     ).readAsString();
-    print(templateString);
 
     String genString = '';
 
@@ -27,8 +26,7 @@ class Generator {
       }
     });
 
-    print(genString);
-    print('生成代码如上');
+    print('Has generated the code');
     return genString;
   }
 }

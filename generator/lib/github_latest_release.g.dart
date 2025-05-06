@@ -7,16 +7,17 @@ part of 'github_latest_release.dart';
 // **************************************************************************
 
 GithubLatestRelease _$GithubLatestReleaseFromJson(Map<String, dynamic> json) =>
-    GithubLatestRelease()
-      ..tag_name = json['tag_name'] as String?
-      ..name = json['name'] as String?
-      ..draft = json['draft'] as bool?
-      ..prerelease = json['prerelease'] as bool?
-      ..assets = (json['assets'] as List<dynamic>?)
+    GithubLatestRelease(
+      tag_name: json['tag_name'] as String?,
+      name: json['name'] as String?,
+      draft: json['draft'] as bool?,
+      prerelease: json['prerelease'] as bool?,
+      assets: (json['assets'] as List<dynamic>?)
           ?.map((e) =>
               GithubLatestReleaseAsset.fromJson(e as Map<String, dynamic>))
-          .toList()
-      ..body = json['body'] as String?;
+          .toList(),
+      body: json['body'] as String?,
+    );
 
 Map<String, dynamic> _$GithubLatestReleaseToJson(
         GithubLatestRelease instance) =>
@@ -31,17 +32,18 @@ Map<String, dynamic> _$GithubLatestReleaseToJson(
 
 GithubLatestReleaseAsset _$GithubLatestReleaseAssetFromJson(
         Map<String, dynamic> json) =>
-    GithubLatestReleaseAsset()
-      ..name = json['name'] as String?
-      ..size = json['size'] as int?
-      ..download_count = json['download_count'] as int?
-      ..created_at = json['created_at'] == null
+    GithubLatestReleaseAsset(
+      name: json['name'] as String?,
+      size: (json['size'] as num?)?.toInt(),
+      download_count: (json['download_count'] as num?)?.toInt(),
+      created_at: json['created_at'] == null
           ? null
-          : DateTime.parse(json['created_at'] as String)
-      ..updated_at = json['updated_at'] == null
+          : DateTime.parse(json['created_at'] as String),
+      updated_at: json['updated_at'] == null
           ? null
-          : DateTime.parse(json['updated_at'] as String)
-      ..browser_download_url = json['browser_download_url'] as String?;
+          : DateTime.parse(json['updated_at'] as String),
+      browser_download_url: json['browser_download_url'] as String?,
+    );
 
 Map<String, dynamic> _$GithubLatestReleaseAssetToJson(
         GithubLatestReleaseAsset instance) =>
