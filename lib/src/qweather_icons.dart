@@ -5778,9 +5778,9 @@ enum QWeatherIcons {
   /// [QWeatherIcons] fontPackage name
   static const _fontPak = 'qweather_icons';
 
-  /// get icon with [tag]
+  /// Get icon with [tag]
   ///
-  /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+  /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
   factory QWeatherIcons.getIconWith(String? tag) {
     if (tag == null) return QWeatherIcons.tag_unknown;
     for (QWeatherIcons icons in QWeatherIcons.values) {
@@ -5789,9 +5789,9 @@ enum QWeatherIcons {
     return QWeatherIcons.tag_unknown;
   }
 
-  /// get filled icon with [qWeatherIcons]
+  /// Get filled icon with [qWeatherIcons]
   ///
-  /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+  /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
   factory QWeatherIcons.getFilledIconWith(QWeatherIcons qWeatherIcons) {
     if (qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
     for (QWeatherIcons icons in QWeatherIcons.values) {
@@ -5800,9 +5800,9 @@ enum QWeatherIcons {
     return QWeatherIcons.tag_unknown;
   }
 
-  /// get unfilled icon with [qWeatherIcons]
+  /// Get unfilled icon with [qWeatherIcons]
   ///
-  /// if it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
+  /// If it doesn't exist, return [QWeatherIcons.tag_unknown] as default value
   factory QWeatherIcons.getUnfilledIconWith(QWeatherIcons qWeatherIcons) {
     if (!qWeatherIcons.tag.endsWith('_fill')) return qWeatherIcons;
     for (QWeatherIcons icons in QWeatherIcons.values) {

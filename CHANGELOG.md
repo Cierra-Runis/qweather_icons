@@ -1,3 +1,9 @@
+## 1.6.0+1
+
+- gen: Update generator
+- doc: Update dartdoc comments
+- doc: Fix broken links in README.md
+
 ## 1.6.0
 
 Rebuild for [v1.6.0](https://github.com/qwd/Icons/releases/tag/v1.6.0)
