@@ -1240,6 +1240,48 @@ enum QWeatherIcons {
     iconData: IconData(61866, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_1704]
+  tag_1704(
+    tag: '1704',
+    iconData: IconData(62221, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1705]
+  tag_1705(
+    tag: '1705',
+    iconData: IconData(62222, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1706]
+  tag_1706(
+    tag: '1706',
+    iconData: IconData(62223, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1707]
+  tag_1707(
+    tag: '1707',
+    iconData: IconData(62224, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1708]
+  tag_1708(
+    tag: '1708',
+    iconData: IconData(62225, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1709]
+  tag_1709(
+    tag: '1709',
+    iconData: IconData(62226, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_1710]
+  tag_1710(
+    tag: '1710',
+    iconData: IconData(62227, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_1801]
   tag_1801(
     tag: '1801',
@@ -1730,6 +1772,12 @@ enum QWeatherIcons {
   tag_2166(
     tag: '2166',
     iconData: IconData(62038, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_2167]
+  tag_2167(
+    tag: '2167',
+    iconData: IconData(62228, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_2190]
@@ -4228,6 +4276,48 @@ enum QWeatherIcons {
     iconData: IconData(61866, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
+  /// [QWeatherIcons] with [tag_typhoon2]
+  tag_typhoon2(
+    tag: 'typhoon2',
+    iconData: IconData(62221, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_dense_fog2]
+  tag_dense_fog2(
+    tag: 'dense_fog2',
+    iconData: IconData(62222, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_thunderstorm7]
+  tag_thunderstorm7(
+    tag: 'thunderstorm7',
+    iconData: IconData(62223, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_heat2]
+  tag_heat2(
+    tag: 'heat2',
+    iconData: IconData(62224, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_flood3]
+  tag_flood3(
+    tag: 'flood3',
+    iconData: IconData(62225, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_high_water]
+  tag_high_water(
+    tag: 'high_water',
+    iconData: IconData(62226, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_drought3]
+  tag_drought3(
+    tag: 'drought3',
+    iconData: IconData(62227, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
   /// [QWeatherIcons] with [tag_strong_monsoon_signal2]
   tag_strong_monsoon_signal2(
     tag: 'strong_monsoon_signal2',
@@ -4706,6 +4796,12 @@ enum QWeatherIcons {
   tag_other_dangers(
     tag: 'other_dangers',
     iconData: IconData(62038, fontFamily: _fontFam, fontPackage: _fontPak),
+  ),
+
+  /// [QWeatherIcons] with [tag_low_water]
+  tag_low_water(
+    tag: 'low_water',
+    iconData: IconData(62228, fontFamily: _fontFam, fontPackage: _fontPak),
   ),
 
   /// [QWeatherIcons] with [tag_severe_thunderstorms]
